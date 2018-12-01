@@ -2,7 +2,7 @@
 #include <vector>
 #include <map>
 #include "jtag_port.h"
-#define TDI_BITS_NOTIFY 15000
+#define TDI_BITS_NOTIFY 40000
 
 //using namespace std;
 namespace jtag_au {

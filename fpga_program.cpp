@@ -27,7 +27,6 @@ int main (int argc, char **argv)
 		filename = argv[1];
 	}
 	vector<unsigned char> buffer;
-	vector<unsigned char> buffer_inv;
 
 	ifstream f(filename, ios::binary | ios::in);
 	char c;
@@ -39,20 +38,11 @@ int main (int argc, char **argv)
 			j++;
 		}
 	}
-	cout << "Last iterator value " << j << endl; //1047616
 	cout << "Buffer Size " << buffer.size() << endl;
 
-	for(int i=buffer.size()-1; i>=0;i--){
-		buffer_inv.push_back(buffer[i]);
-	}
-	//reverse(buffer.begin(), buffer.end());
-	//Validate first 20 bits 
+	//Validate first 32 bits 
 	for(int i=0; i<32; i++){
 		cout << (int)buffer[i];
-	}
-	cout << endl;
-		for(int i=0; i<32; i++){
-		cout << (int)buffer_inv[i];
 	}
 	cout << endl;
 
