@@ -3,16 +3,22 @@ This project was created to be able to download the bitstream to a FPGA board wi
 
 ![FPGA](https://www.picclickimg.com/d/l400/pict/202418248319_/XILINX-SPARTAN-3-XC3S200-FPGA-module-FPGA-kit-Development.jpg).
 
-<YOUTUBE LINK>
-
 The prohect proves 2 utilites the firstone **idcode** is to test reading the IDCODES in a chain, and **fpga_program** to load the bitstream inot the fpga. Is super simple to extend the functionalities.
 
 Raspberry PI JTAG programmer for Spartan3 FPGA. This project is written in a poorly but working C/C++ mix for a RPI v1. So **Choose proper JTAG pins wirings for your RPI version in main cpp file. Pin numbers use wiringPI numeration** 
 
-# Prerequisites
+## Check Video
+  <a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+" target="_blank"><img src="http://img.youtube.com/vi/aABMkHJeyaw/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+# Programming the FPGA
+You can easily program your FPGA following the steps described below. If you have a different fpga or more devices in the chain, you can just add the required registers in the **xilinx_devices.h** file or a new one if you want. Remember to always chech the manufacturer guides to get the Registers right.
+
+## Prerequisites
 wiringPI library
 
-# Usage
+## Usage
 1. [Install wiringPI library](http://wiringpi.com/download-and-install/)
 2. Clone repository `git clone https://github.com/yuyomagico/rpi-jtag-spartan3`
 3. Check your RPI Version and check pin numbers for JTAG port in "idcode.cpp"
