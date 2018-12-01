@@ -8,8 +8,7 @@ The prohect proves 2 utilites the firstone **idcode** is to test reading the IDC
 Raspberry PI JTAG programmer for Spartan3 FPGA. This project is written in a poorly but working C/C++ mix for a RPI v1. So **Choose proper JTAG pins wirings for your RPI version in main cpp file. Pin numbers use wiringPI numeration** 
 
 ## Check Video
-  <a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
-" target="_blank"><img src="http://img.youtube.com/vi/aABMkHJeyaw/0.jpg" 
+  <a href="http://www.youtube.com/watch?feature=player_embedded&v=aABMkHJeyaw" target="_blank"><img src="http://img.youtube.com/vi/aABMkHJeyaw/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 # Programming the FPGA
