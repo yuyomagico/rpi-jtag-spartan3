@@ -3,7 +3,7 @@ This project was created to be able to download the bitstream to a FPGA board wi
 
 ![FPGA](https://www.picclickimg.com/d/l400/pict/202418248319_/XILINX-SPARTAN-3-XC3S200-FPGA-module-FPGA-kit-Development.jpg).
 
-In this project I provide 2 utilites, the firstone **idcode** is to test reading the IDCODES in a JTAG chain, and the 2nd one **fpga_program** to load the bitstream into the fpga. Is super simple to extend the functionalities.
+In this project I provide 2 utilites, the firstone **idcode** is to test reading the IDCODES in a JTAG chain, and the 2nd one **fpga_program** to load the bitstream into the fpga. Is super simple to extend the functionalities. I also implemented the JTAG TAP Controller to improve the control of the JTAG Chain.
 
 Raspberry PI JTAG programmer for Spartan3 FPGA. This project is written from scratch in C/C++ mix for a RPI v1. So **Choose proper JTAG pins wirings for your RPI version in main cpp file. Pin numbers use wiringPI numeration** 
 
