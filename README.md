@@ -20,7 +20,7 @@ You can easily program your FPGA following the steps described below. If you hav
 ## Usage
 1. [Install wiringPI library](http://wiringpi.com/download-and-install/)
 2. Clone repository `git clone https://github.com/yuyomagico/rpi-jtag-spartan3`
-3. Check your RPI Version and check pin numbers for JTAG port in "idcode.cpp"
+3. **Check your RPI Version and check pin numbers for JTAG port in "idcode.cpp"**
 4. `./idcode_build.sh` to build the **idcode** and `./build.sh` to build **fpga_program**.
 5. Outputs will be written into `bin/`
 6. Usage: `./bin/idcode` and `./bin/fpga_program <filename>`
